@@ -1,1 +1,40 @@
-theme: jekyll-theme-cayman
+title: Ricky Wang
+description: >-
+  Ricky Wang's web site with blogs.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://rickywxg.github.io"
+
+github_username: rickywxg
+email: ricky.oss@outlook.com
+
+author:
+  name: Ricky Wang
+  email: ricky.oss@outlook.com
+
+# theme: minima
+remote_theme: rickywxg/minima@master_for_ricky
+
+minima:
+
+  # generate social links in footer
+  social_links:
+    github: rickywxg
+    linkedin: rickywxg
+    rss: rss
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# The comments widget provided by https://utteranc.es
+utterances:
+  repo: rickywxg/rickywxg.github.io
+  issue-term: pathname
+  issue-label: comments
+  theme: github-light
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag

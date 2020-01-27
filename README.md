@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to Ricky Wang's GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/rickywxg/rickywxg.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+One can use the [editor on GitHub](https://github.com/rickywxg/rickywxg.github.io/edit/master/README.md) to maintain and preview the content for the website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Whenever a commit is merged to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in the site, from the content in the Markdown files.
 
 ### Markdown
 
@@ -30,17 +30,21 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rickywxg/rickywxg.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+The theme is configured as `remote_theme: rickywxg/minima@master_for_ricky`.
+
+Utterances comment widget is enabled for all posts. To disapble it for a specific post, please add to the post's
+Front Matter as `comments: false`
 
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
-<script src="https://utteranc.es/client.js"
-        repo="rickywxg/rickywxg.github.io"
-        issue-term="pathname"
-        label="comments"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+### Development
+
+Commands.
+```shell
+bundle install
+bundle update
+bundle exec jekyll serve -w -D -l
+bundle exec jekyll serve --watch --drafts --livereload
+```
