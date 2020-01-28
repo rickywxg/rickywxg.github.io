@@ -51,6 +51,5 @@ bundle exec jekyll serve --watch --drafts --livereload
 
 ### Todo List
 
-1. add a favicon
-2. add a banner
-3. add tags support
+1. add a banner
+2. add tags support
