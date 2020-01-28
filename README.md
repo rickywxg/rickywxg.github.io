@@ -35,10 +35,6 @@ The theme is configured as `remote_theme: rickywxg/minima@master_for_ricky`.
 Utterances comment widget is enabled for all posts. To disapble it for a specific post, please add to the post's
 Front Matter as `comments: false`
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
 ### Development
 
 Commands.
@@ -49,7 +45,14 @@ bundle exec jekyll serve -w -D -l
 bundle exec jekyll serve --watch --drafts --livereload
 ```
 
+### Site Statistics
+Google Analytics
+
+### Favicons
+Generated from https://realfavicongenerator.net/
+
 ### Todo List
 
 1. add a banner
 2. add tags support
+3. algolia site search [link](https://community.algolia.com/jekyll-algolia/).
