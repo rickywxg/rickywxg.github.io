@@ -22,10 +22,16 @@ minima:
     linkedin: rickywxg
     rss: rss
 
+# show post excerpts in the home page
+show_excerpts: true
+
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.md
+
+# Google Analytics support
+google_analytics: UA-157166165-1
 
 # The comments widget provided by https://utteranc.es
 utterances:

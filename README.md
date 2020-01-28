@@ -48,3 +48,9 @@ bundle update
 bundle exec jekyll serve -w -D -l
 bundle exec jekyll serve --watch --drafts --livereload
 ```
+
+### Todo List
+
+1. add a favicon
+2. add a banner
+3. add tags support
