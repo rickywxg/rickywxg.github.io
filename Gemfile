@@ -1,6 +1,6 @@
 # use ruby-china mirror to speed up `bundle install`
-source "https://rubygems.org"
-# source "https://gems.ruby-china.com"
+# source "https://rubygems.org"
+source "https://gems.ruby-china.com"
 
 # This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -23,6 +23,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
+  gem "jekyll-tagging"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

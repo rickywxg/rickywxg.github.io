@@ -51,8 +51,11 @@ Google Analytics
 ### Favicons
 Generated from https://realfavicongenerator.net/
 
+### Tags support
+The tags are supported by the customized rickywxg/minima themes. It is fully compatible with Github Pages.
+
 ### Todo List
 
 1. add a banner
-2. add tags support
-3. algolia site search [link](https://community.algolia.com/jekyll-algolia/).
+2. in site search support such as [algolia site search](https://community.algolia.com/jekyll-algolia/).
+3. other ideas from [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-plugins)
